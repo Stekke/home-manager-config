@@ -13,6 +13,7 @@ in
 
     ../accounts/mail.nix
     ../accounts/ssh.nix
+    ../accounts/git.nix
 
     ../packages/text.nix
     ../packages/games.nix

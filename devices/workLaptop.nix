@@ -3,6 +3,7 @@
   imports = [
     ../common.nix
     ../packages/text.nix
+    ../programs/git.nix
   ];
 
   home.homeDirectory = /home/stijnd;

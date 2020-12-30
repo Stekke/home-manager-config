@@ -2,6 +2,7 @@
 {
   imports = [
     ../common.nix
+    ../programs/git.nix
   ];
 
   news.display = "notify";
