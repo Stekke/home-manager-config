@@ -13,7 +13,6 @@
     bc # calculator
     units # unit conversion
     nmap # network scanner
-    broot # file list/searcher/manager
     hexyl # hex viewer
     lsof # list open file descriptors
     glances # system monitor

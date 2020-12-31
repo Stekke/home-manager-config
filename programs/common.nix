@@ -7,6 +7,7 @@
     man.generateCaches = true;
 
     fzf.enable = true;
+    fzf.enableFishIntegration = true;
     htop = {
       enable = true;
       accountGuestInCpuMeter = true;
@@ -23,6 +24,8 @@
       treeView = true;
     };
     kakoune.enable = true;
+    broot.enable = true;
+    broot.enableFishIntegration = true;
 
     neovim = {
       enable = true;
