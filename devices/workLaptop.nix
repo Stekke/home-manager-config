@@ -9,12 +9,13 @@
   ];
 
   news.display = "notify";
+  fonts.fontconfig.enable = true;
   home = {
     username = "sdw";
     homeDirectory = "/home/sdw";
     extraOutputsToInstall = [ "doc" "devdoc" ];
     stateVersion = "21.03";
-    home.packages = with pkgs; [
+    packages = with pkgs; [
       firefox # browse the web
       wineWowPackages.stable winetricks # Run windows binaries
       manpages stdmanpages
@@ -26,6 +27,9 @@
       vlc # Media player
       ffmpeg # video converter
       teams # Windows chat
+      
+      # fonts
+      source-code-pro
     ];
   };
 

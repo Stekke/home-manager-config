@@ -15,5 +15,6 @@
     kmail # KDE office stuff
     korganizer # KDE office stuff
     kaddressbook # KDE office stuff
+    kdeApplications.kmail-account-wizard
   ];
 }
