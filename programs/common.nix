@@ -7,7 +7,21 @@
     man.generateCaches = true;
 
     fzf.enable = true;
-    htop.enable = true;
+    htop = {
+      enable = true;
+      accountGuestInCpuMeter = true;
+      detailedCpuTime = true;
+      hideThreads = true;
+      hideKernelThreads = true;
+      hideUserlandThreads = true;
+      highlightBaseName = true;
+      highlightMegabytes = true;
+      shadowOtherUsers = true;
+      showCpuFrequency = true;
+      showCpuUsage = true;
+      showProgramPath = false;
+      treeView = true;
+    };
     kakoune.enable = true;
 
     neovim = {
