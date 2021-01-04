@@ -10,8 +10,12 @@
     scrot # screenshots
 
     # fonts
-    terminus
+    terminus_font
+    terminus_font_ttf
+    b612
     spleen
+    corefonts # MS fonts for wine
+    font-awesome # icons
 
     # theming
     gtk-engine-murrine
