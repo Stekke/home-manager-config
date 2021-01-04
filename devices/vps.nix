@@ -10,6 +10,7 @@
     homeDirectory = /home/stekke;
     stateVersion = "20.03";
     packages = with pkgs; [
+      ncat appimage-run
     ];
   };
 
