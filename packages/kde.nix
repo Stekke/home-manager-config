@@ -16,5 +16,13 @@
     korganizer # KDE office stuff
     kaddressbook # KDE office stuff
     kdeApplications.kmail-account-wizard
+    kdeApplications.kmailtransport
+    kdeApplications.akonadi
+    kdeApplications.akonadi-calendar
+    kdeApplications.akonadi-contacts
+    kdeApplications.kdepim-runtime
+    kdeApplications.kdepim-addons
+    kdeApplications.kdepim-apps-libs
+    kdeApplications.pimcommon
   ];
 }
