@@ -17,12 +17,14 @@
     lsof # list open file descriptors
     glances # system monitor
     dstat # system monitor
+    screen # keep a terminal session running
 
     # File management
     ranger # file browser
     atool # frontend to archivers
     file # print file format info
     zip unzip gnutar p7zip gnutar # archive formats
+    rsync # file transfer
 
     # encryption / connectivity stuff
     wireguard-tools # VPN tools
