@@ -75,6 +75,7 @@ in
       tdesktop # Telegram
       pkgsUnstable.discord # Discord
       nheko # Matrix
+      weechat # IRC client
 
       # media
       youtube-dl # Download video's from websites
